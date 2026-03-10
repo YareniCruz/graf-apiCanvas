@@ -7,7 +7,7 @@ var edit = document.getElementById("edit");
 // Guardamos el código inicial para el botón "Reset"
 var initialCode = textarea.value;
 
-function drawCanvas() {
+/*function drawCanvas() {
     try {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         // eval ejecutará lo que esté escrito en el textarea
@@ -15,7 +15,18 @@ function drawCanvas() {
     } catch (e) {
         console.error("Error en el código del canvas: ", e);
     }
+}*/
+function draw() {
+  const canvas = document.getElementById("canvas");
+  if (canvas.getContext) {
+    const ctx = canvas.getContext("2d");
+
+    ctx.fillRect(25, 25, 100, 100);
+    ctx.clearRect(45, 45, 60, 60);
+    ctx.strokeRect(50, 50, 50, 50);
+  }
 }
+
 
 // Eventos
 reset.addEventListener("click", function () {
@@ -31,3 +42,5 @@ textarea.addEventListener("input", drawCanvas);
 
 // Dibujar por primera vez cuando cargue la página
 window.addEventListener("load", drawCanvas);
+
+
