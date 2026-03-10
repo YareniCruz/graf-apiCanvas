@@ -48,6 +48,7 @@ function draw() {
 */
 //HAPPY FACE
 
+/*
 function draw() {
   const canvas = document.getElementById("canvas");
   if (canvas.getContext) {
@@ -64,9 +65,10 @@ function draw() {
     ctx.stroke();
   }
 }
+*/
 
 //LINEAS
-/*
+
 function draw() {
   const canvas = document.getElementById("canvas");
   if (canvas.getContext) {
@@ -87,7 +89,7 @@ function draw() {
     ctx.closePath();
     ctx.stroke();
   }
-}*/
+}
 
 //ARCOS
 /*
