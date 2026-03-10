@@ -68,7 +68,7 @@ function draw() {
 */
 
 //LINEAS
-
+/*
 function draw() {
   const canvas = document.getElementById("canvas");
   if (canvas.getContext) {
@@ -90,9 +90,9 @@ function draw() {
     ctx.stroke();
   }
 }
-
+*/
 //ARCOS
-/*
+
 function draw() {
   const canvas = document.getElementById("canvas");
   if (canvas.getContext) {
@@ -119,7 +119,7 @@ function draw() {
     }
   }
 }
-  */
+  
 
 //Curvas de Bézier y cuadráticas CORAZÓN
 /*
