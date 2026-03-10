@@ -2,8 +2,23 @@
 <html lang="es">
 <head>
     <title>Canvas 2D</title>
+    <script type="text/javascript">
+      function draw() {
+        var canvas = document.getElementById("tutorial");
+        if (canvas.getContext) {
+          var ctx = canvas.getContext("2d");
+        }
+      }
+    </script>
+    <style type="text/css">
+      canvas {
+        border: 1px solid black;
+      }
+    </style>
 </head>
-<body>
+<body onload="draw()">
+    <canvas id="canvas"></canvas>
+    <br>
     <canvas id="canvas" width="400" height="200" class="playable-canvas"></canvas>
     <div class="playable-buttons">
     <input id="edit" type="button" value="Edit" />
@@ -13,7 +28,6 @@
     ctx.fillStyle = "green";
     ctx.fillRect(10, 10, 100, 100);</textarea
     >
-
 
     <script src="main.js"></script>
 </body>
