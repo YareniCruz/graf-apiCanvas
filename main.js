@@ -32,7 +32,7 @@ function draw() {
 */
 
 // TRIANGULO
-
+/*
 function draw() {
   const canvas = document.getElementById("canvas");
   if (canvas.getContext) {
@@ -45,9 +45,9 @@ function draw() {
     ctx.fill();
   }
 }
-
+*/
 //HAPPY FACE
-/*
+
 function draw() {
   const canvas = document.getElementById("canvas");
   if (canvas.getContext) {
@@ -63,7 +63,7 @@ function draw() {
     ctx.arc(90, 65, 5, 0, Math.PI * 2, true); // Ojo derecho
     ctx.stroke();
   }
-}*/
+}
 
 //LINEAS
 /*
