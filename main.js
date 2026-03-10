@@ -18,6 +18,7 @@ var initialCode = textarea.value;
 }*/
 
 // RECTANGULO
+/*
 function draw() {
   const canvas = document.getElementById("canvas");
   if (canvas.getContext) {
@@ -28,9 +29,10 @@ function draw() {
     ctx.strokeRect(50, 50, 50, 50);
   }
 }
+*/
 
 // TRIANGULO
-/*
+
 function draw() {
   const canvas = document.getElementById("canvas");
   if (canvas.getContext) {
@@ -42,7 +44,7 @@ function draw() {
     ctx.lineTo(100, 25);
     ctx.fill();
   }
-}*/
+}
 
 //HAPPY FACE
 /*
