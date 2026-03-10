@@ -92,7 +92,7 @@ function draw() {
 }
 */
 //ARCOS
-
+/*
 function draw() {
   const canvas = document.getElementById("canvas");
   if (canvas.getContext) {
@@ -119,10 +119,10 @@ function draw() {
     }
   }
 }
-  
+  */
 
 //Curvas de Bézier y cuadráticas CORAZÓN
-/*
+
 function draw() {
   const canvas = document.getElementById("canvas");
   if (canvas.getContext) {
@@ -157,7 +157,7 @@ function draw() {
     ctx.fill();
   }
 }
-  */
+  
 
 //COMBINACIÓN
 /*
