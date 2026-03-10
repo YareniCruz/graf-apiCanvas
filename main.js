@@ -16,7 +16,7 @@ var initialCode = textarea.value;
         console.error("Error en el código del canvas: ", e);
     }
 }*/
-/*
+
 // RECTANGULO
 function draw() {
   const canvas = document.getElementById("canvas");
@@ -27,7 +27,7 @@ function draw() {
     ctx.clearRect(45, 45, 60, 60);
     ctx.strokeRect(50, 50, 50, 50);
   }
-}*/
+}
 
 // TRIANGULO
 /*
@@ -156,6 +156,7 @@ function draw() {
   */
 
 //COMBINACIÓN
+/*
 function draw() {
   const canvas = document.getElementById("canvas");
   if (canvas.getContext) {
@@ -235,7 +236,7 @@ function roundedRect(ctx, x, y, width, height, radius) {
   ctx.arcTo(x, y, x, y + radius, radius);
   ctx.stroke();
 }
-
+*/
 
 
 // Eventos
