@@ -1,5 +1,5 @@
 # TECNOLOGICO NACIONAL DE MEXICO
 ## Instituto Tecnológico de Pachuca
-## 1.2 Publicación colaborativa de códigos fuentes
+## 2.2 Introducción a la graficación 2D
 ## Autor: Cruz Pérez Nelida Yareni
-## Fecha: 04-02-2026
+## Fecha: 09-03-2026
